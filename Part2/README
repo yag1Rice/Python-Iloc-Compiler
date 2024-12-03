@@ -1,0 +1,13 @@
+//NAME:Youssef Gehad
+//NETID:yag1
+
+Command Syntax (using executable): /storage-home/y/yag1/comp412/lab2/yag1/412alloc [flag(s)] [filename]
+
+Required arguments: a flag followed by filename (except -h flag which does not require a filename), 
+where filename is the name of the path to the input file
+
+Flags in order of presedence (at most one):
+    -h       (Prints a description of each flag and what it does)
+    -x      (Scans and parses the input block, then renames the code from the input block and prints the result)
+    k       (Scans, parses, and allocates the input block so that it only uses registers r0 to rk-1. Prints the resulting code. 
+             is the number of registers available to the allocator where 3 <= k <= 64 otherwise an error message is thrown.)

@@ -1,0 +1,14 @@
+//NAME:Youssef Gehad
+//NETID:yag1
+
+Command Syntax (using executable): /storage-home/y/yag1/comp412/lab1/yag1/412fe [flag(s)] [filename]
+
+Required arguments: filename is the name of the path to the input file
+
+Optional flags in order of presedence (at most one):
+    -h       (Prints a description of each flag and what it does)
+    -s       (Prints tokens in token stream the scanner found)
+    -p       (Prints if file was parsable and number of operations or if the file was unparsable the number of errros)
+    -r       (Print human readable version of constucted IR)
+
+If none are specified, the default action is '-p'

@@ -1,0 +1,10 @@
+//NAME:Youssef Gehad
+//NETID:yag1
+
+Command Syntax (using executable): /storage-home/y/yag1/comp412/lab2/yag1/schedule [flag] or [filename]
+
+Required arguments: a flag (which can only be -h) or filename, the name of the path to the input file
+
+Flags in order of presedence:
+    -h       (Prints a description of each flag and what it does)
+    
